@@ -1,0 +1,113 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.super {
+    background-color: white;
+    border: 2px solid white;
+    /* border-width: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 496px;
+    height: 559px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.super2 {
+    padding: 10px;
+    margin: 600px;
+}
+
+.titleSmall {
+    font-size: 20px;
+}
+
+input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+input:hover{
+    border: 2px solid rgba(232, 20, 20, 0.947);
+    border-radius: 4px;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.349);
+}
+
+.First {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 17px 0px;
+}
+
+h3 {
+    margin: 0px 0px 50px 0px
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 29px;
+
+}
+
+#address {
+    width: 24vw;
+    height: 8vh;
+}
+
+#cv1 {
+    border: 1px solid #ccc;
+}
+
+#JobApplication {
+    width: 200px;
+    height: 29px;
+}
+
+.job {
+    font-size: 15px;
+}
+
+.com {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+button {
+    width: 85px;
+    height: 30px;
+    background-color: rgba(232, 20, 20, 0.947);
+    color: white;
+    border-radius: 7px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ccc;
+    color: rgba(232, 20, 20, 0.947);
+    border: 2px solid rgba(232, 20, 20, 0.947);
+    font-size: 14px;
+}
+.submit {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 15px;
+    margin-left: 50px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="super">
+    <div class="super2">
+    <div class="First">
+        <h1>
+            Job Application
+            <span class="titleSmall">(web)</span>
+        </h1>
+       
+    </div>
+        <form action="backend.php">
+        <div class="head">
+        
+            <div class="name com">
+                <label for="name1">First name</label>
+                <input type="text" name="name1" id="name1" placeholder="First Name...">
+            </div>
+
+            <div class="name2 com">
+                <label for="name2">Last name</label>
+                <input type="text" name="name2" id="name2" placeholder="Last name...">
+            </div>
+            <div class="email com">
+                <label for="email">Email Id</label>
+                <input type="email" name="email" id="email" placeholder="Email..">
+            </div>
+
+            <div class="job com">
+                <label for="Job role" class="job">Job Role</label>
+                <select id="JobApplication" name="job" placeholder="Select the job...">
+                    <option value="Backend developer">Backend developer</option>
+                    <option value="Frontend developer">Frontend developer</option>
+                    <option value="Full stack developer">Full stack developer</option>
+                    <option value="UI/UX Deginer">UI/UX Deginer</option>
+                </select>
+            </div>
+
+            <div class="address com">
+                <label for="address">Address</label>
+         <textarea name="Address" id="address" cols="30" rows="2" placeholder="Enter the address.."></textarea>
+            </div>
+            <br>
+            <div class="city com">
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" placeholder="City...">
+            </div>
+
+            <div class="pincode com">
+                <label for="pincode">Pin code</label>
+                <input type="number" name="pincode" id="pincode" placeholder="Pincode..">
+            </div>
+
+            <div class="date com">
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" placeholder="Date..">
+            </div>
+
+
+            <div class="cv com">
+                <label for="cv">Upload your cv..</label>
+                <input type="file" name="cv" id="cv1" placeholder="Upload cv..">
+            </div>
+
+        </div>
+        <div class="submit com">
+      <button id="submit">Apply Now</button>
+        </div>
+        </form>
+    </div>
+     </div>
+
+     <script src="script2.js"></script>
+</body>
+</html>
